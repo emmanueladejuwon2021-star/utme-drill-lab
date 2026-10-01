@@ -1,0 +1,19 @@
+{
+  "name": "testdriller-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node src/seed.js",
+    "test": "node src/test-runner.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.15",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.24.2"
+  }
+}
