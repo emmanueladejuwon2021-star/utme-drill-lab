@@ -1,0 +1,16 @@
+{
+  "name": "utme-drill-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm install --prefix client && npm run build --prefix client && npm install --prefix server"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.15",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.24.2"
+  }
+}
